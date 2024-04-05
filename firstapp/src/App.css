@@ -3,15 +3,36 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /* Set initial size and other styles */
+  width: 200px;
+  height: 200px;
+  transition: transform 0.2s; /* Smooth animation */
+
+  /* Center the image horizontally */
+  margin: 0 auto;
+}
+
+.App-logo:hover {
+  transform: scale(1.5); /* Enlarge by 50% on hover */
+}
+
+/*.App-logo {
+  height: 50vmin;
   pointer-events: none;
+}
+.App-logo img {
+  transition: transform 0.3s ease;
+}
+
+.App-logo:hover img {
+  transform: scale(1.7); 
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    animation: App-logo-spin infinite 5s linear;
+  } 
+} */
 
 .App-header {
   background-color: #282c34;
